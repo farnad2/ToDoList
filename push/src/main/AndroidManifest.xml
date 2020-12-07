@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.farnadsoft.to_do_list"
+    android:versionCode="19"
+    android:versionName="1.18">
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+
+   <!--
+    <uses-permission android:name="com.farsitel.bazaar.permission.PAY_THROUGH_BAZAAR"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    -->
+
+    <!--
+     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"
+         tools:node="remove"/>
+     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"
+         tools:node="remove"/>
+     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    -->
+
+
+     <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+     <!-- This app has permission to register and receive data message. -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <!-- Permission to vibrate -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <!-- Creates a custom permission so only this app can receive its messages. -->
+    <permission
+        android:name="com.farnadsoft.to_do_list.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.icanappz.fcmpush.permission.C2D_MESSAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!--
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+     -->
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+
+    <!--
+
+     -->
+
+    <application
+        android:name="com.farnadsoft.to_do_list.I"
+        android:icon="@drawable/note_book128"
+        android:label="@string/app_name"
+        android:allowBackup="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <!-- -->
+        <activity
+            android:name="com.farnadsoft.to_do_list.PermissionGetter"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+<!-- -->
+
+        <activity
+            android:name="com.farnadsoft.to_do_list.UI.PushActivity"
+            android:theme="@style/AppTheme"/>
+        <activity
+            android:name="com.farnadsoft.to_do_list.MainActivity"
+            android:theme="@style/AppTheme"/>
+
+        <activity
+            android:name="com.farnadsoft.to_do_list.UI.DailogeNotice"
+            android:theme="@style/AppTheme"/>
+        <activity
+            android:name="com.farnadsoft.to_do_list.UI.CustomeWebView"
+            android:theme="@style/AppTheme"/>
+        <activity
+            android:name="com.farnadsoft.to_do_list.UI.PreferenceActivity"
+            android:theme="@style/AppTheme"/>
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+
+        <service android:name="com.farnadsoft.to_do_list.Push.FIRInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.farnadsoft.to_do_list.Push.FIRMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+                <action android:name="com.icanappz.fcmpush.SDK.FCMActivity.NEW_NOTIFICATION" />
+            </intent-filter>
+        </service>
+
+        <activity android:name="com.farnadsoft.to_do_list.Push.FCMActivity"/>
+        <activity
+            android:name="com.farnadsoft.to_do_list.UI.CategorySelectionActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme"/>
+
+        <service android:name="com.farnadsoft.to_do_list.Push.AlarmReceiver"/>
+
+        <receiver android:name="com.farnadsoft.to_do_list.Push.AlarmBrodcastReceiver"/>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"
+            tools:replace="android:value" />
+    </application>
+
+</manifest>

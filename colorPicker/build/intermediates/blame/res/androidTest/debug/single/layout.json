@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\dev\\ToDoListEn4\\colorPicker\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\act_pref.xml",
+        "source": "C:\\dev\\ToDoListEn4\\colorPicker\\build\\intermediates\\bundles\\debug\\res\\layout\\act_pref.xml"
+    },
+    {
+        "merged": "C:\\dev\\ToDoListEn4\\colorPicker\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\act_demo.xml",
+        "source": "C:\\dev\\ToDoListEn4\\colorPicker\\build\\intermediates\\bundles\\debug\\res\\layout\\act_demo.xml"
+    },
+    {
+        "merged": "C:\\dev\\ToDoListEn4\\colorPicker\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\act_picker.xml",
+        "source": "C:\\dev\\ToDoListEn4\\colorPicker\\build\\intermediates\\bundles\\debug\\res\\layout\\act_picker.xml"
+    },
+    {
+        "merged": "C:\\dev\\ToDoListEn4\\colorPicker\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\act_multi_picker.xml",
+        "source": "C:\\dev\\ToDoListEn4\\colorPicker\\build\\intermediates\\bundles\\debug\\res\\layout\\act_multi_picker.xml"
+    }
+]

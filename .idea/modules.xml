@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ToDoListFaEn.iml" filepath="$PROJECT_DIR$/ToDoListFaEn.iml" group="ToDoListFaEn" />
+      <module fileurl="file://$PROJECT_DIR$/colorPicker/colorPicker.iml" filepath="$PROJECT_DIR$/colorPicker/colorPicker.iml" group="ToDoListFaEn/colorPicker" />
+      <module fileurl="file://$PROJECT_DIR$/push/push.iml" filepath="$PROJECT_DIR$/push/push.iml" group="ToDoListFaEn/push" />
+      <module fileurl="file://$PROJECT_DIR$/slidingMenuLibrary/slidingMenuLibrary.iml" filepath="$PROJECT_DIR$/slidingMenuLibrary/slidingMenuLibrary.iml" group="ToDoListFaEn/slidingMenuLibrary" />
+    </modules>
+  </component>
+</project>

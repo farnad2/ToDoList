@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ddb"
+    android:orientation="vertical"
+
+    android:paddingTop="8dp">
+
+    <Button
+        android:id="@+id/btn_background"
+        android:layout_width="fill_parent"
+        android:layout_height="72dp"
+        android:text="@string/choose_background"
+
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:background="@drawable/button_yes"
+        android:shadowColor="#000"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#446"
+
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:gravity="center|bottom"
+            android:text="@string/choose_language"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/SettingItemTop"
+        android:background="@drawable/setting_list_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/MySettingText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/english"/>
+
+        <CheckBox
+            style="@style/MyCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:id="@+id/chb_english" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/SettingItemBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/MySettingText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/farsi" />
+
+        <CheckBox
+            style="@style/MyCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:id="@+id/chb_farsi" />
+    </LinearLayout>
+
+
+</LinearLayout>

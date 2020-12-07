@@ -1,0 +1,104 @@
+{
+  "project_info": {
+    "project_number": "870110456883",
+    "firebase_url": "https://essential-words-ce866.firebaseio.com",
+    "project_id": "essential-words-ce866",
+    "storage_bucket": "essential-words-ce866.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870110456883:android:71819b17120a0ca0",
+        "android_client_info": {
+          "package_name": "com.farnadsoft.essential_words_with_images"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "870110456883-qvbh71o3aklrjdqt9ef4de4kfi0t9cll.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqJU4zQBEh5fRbtL3cXPvEaCLCoIV9Is0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870110456883:android:83a347b13d17e28a",
+        "android_client_info": {
+          "package_name": "com.farnadsoft.essential_words_with_images_demo_gp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "870110456883-qvbh71o3aklrjdqt9ef4de4kfi0t9cll.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqJU4zQBEh5fRbtL3cXPvEaCLCoIV9Is0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870110456883:android:070d6b6edd24aa09",
+        "android_client_info": {
+          "package_name": "com.farnadsoft.to_do_list"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "870110456883-qvbh71o3aklrjdqt9ef4de4kfi0t9cll.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqJU4zQBEh5fRbtL3cXPvEaCLCoIV9Is0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

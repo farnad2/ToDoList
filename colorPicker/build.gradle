@@ -1,0 +1,13 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 15
+    buildToolsVersion '26.0.2'
+}
+
+/*
+dependencies {
+    compile 'com.android.support:appcompat-v7:24.2.1'
+//    compile 'com.android.support:support-v4:24.2.1'
+}
+//*/

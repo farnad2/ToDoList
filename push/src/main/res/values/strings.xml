@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ToDoList</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- put your admob advertising unit ID	: Leave it blank if don't want to use admob -->
+    <string name="ad_unit_id">ca-app-pub-9937376956444860/8941146536</string>
+
+    <string-array name="empty_array" />
+
+    <!-- Use categories -->
+
+    <!-- For Swipe Actions -->
+
+
+    <!-- v- - - - To Do List Names - - - -v -->
+    <string name="shopping_basket">Shopping Basket</string>
+    <string name="add_new_item">Add New Item</string>
+    <string name="to_do_list">To Do List</string>
+    <string name="choose_background_color_title">Choose Background Color</string>
+    <string name="choose_background">Choose Background</string>
+    <string name="choose_color">Choose Color</string>
+    <string name="choose_language"><u>Choose Language</u></string>
+    <string name="preferences">Preferences</string>
+    <string name="english">English </string>
+    <string name="farsi"> فارسی</string>
+    <string name="reload_title"><u>Reload Application</u></string>
+    <string name="reload_message">For Activation of New Language, Application Must be Reloaded.</string>
+    <string name="help_title">Help</string>
+    <string name="help">
+By this application you can write the list of your To Do Works or Shopping Basket  and refer to it whenever you need them.\n
+For this purpose tow title that are named To Do List and Shopping Basket are considered that by the bottom on the top you can go from one to another.\n
+If you are connected to internet you can use the microphone icon for entering your item by pronouncing it. In this case application will distinguish your pronunciation and type it for you automatically.\n
+For adding the typed text to the list simply touch the + icon.\n
+For deleting one or more item, first touch the items that you want to delete them and touch the trash icon. Please be careful that the deleted items could not be retrieved.\n
+By touching the gear icon on the top right corner you can choose the background for each title of To Do List and Shopping Basket or selecting the Persian or English language. The settings will be saved for future.
+    </string>
+    <!-- ^- - - - - - - - - - - - - - - -^ -->
+
+    <string name="use_cat">true</string>
+    <string name="str_orange">#fe7b27</string>
+    <string name="str_green">#3cac69</string>
+    <string name="str_red">#FF4444</string>
+    <string name="str_yellow">#FFBB33</string>
+    <string name="str_sky_blue">#33B5E5</string>
+    <string name="basic_action_1">Delete</string>
+    <string name="basic_action_2">Action_2</string>
+    <string name="basic_del">Delete</string>
+    <string name="title_activity_category_selection">Category Selection</string>
+
+    <string name="close">Close</string>
+    <string name="view">View</string>
+
+</resources>
